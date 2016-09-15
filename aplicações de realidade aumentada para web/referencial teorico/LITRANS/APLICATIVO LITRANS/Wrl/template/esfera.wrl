@@ -1,0 +1,28 @@
+#VRML V2.0 utf8
+WorldInfo {
+ title "esfera"
+ info ["This Web3D Content was created with Vivaty Studio, a Web3D authoring tool"
+ "www.mediamachines.com"]
+}
+## Vizthumbnail  Thumb_esfera_wrl663521304573896.jpg
+DEF Import_esfera_wrl Group {
+ children [
+  DEF esfera Collision {
+   collide TRUE
+   children [
+    Shape {
+     appearance Appearance {
+      material DEF Green Material {
+       ambientIntensity 0.200
+       shininess 0.200
+       diffuseColor 0 1 0
+      }
+     }
+     geometry Sphere {
+      radius 10.000
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,362 @@
+#VRML V2.0 utf8
+WorldInfo {
+ title "mAdvise"
+ info ["This Web3D Content was created with Flux Studio, a Web3D authoring tool"
+ "www.mediamachines.com"
+ "This Web3D Content was created with Flux Studio, a Web3D authoring tool"
+ "This Web3D Content was created with Flux Studio, a Web3D authoring tool"
+ "This Web3D Content was created with Flux Studio, a Web3D authoring tool"]
+}
+## Vizthumbnail  Thumb_panel2_wrl29497801199282988.jpg
+
+
+
+Transform {
+	translation -70 90 1
+    children [
+    	Shape {
+        	appearance Appearance {
+        		material DEF Shiny_Black Material {
+        			ambientIntensity 0.200
+        			shininess 0.100
+        			diffuseColor 0 0 0
+        		}
+        	}
+        	geometry DEF tex1 Text {
+        		string "Uso Local:"
+        		maxExtent 0.000
+        		fontStyle FontStyle {
+        			family "SANS"
+        			style "BOLD"
+        			justify ["BEGIN" "BEGIN"]
+        			size 20.000
+        			spacing 1.000
+        		}
+        	}
+        }
+	]
+}
+
+Transform {
+	 translation 40 92.5 4
+	 children [
+		 Shape {
+			 appearance Appearance {
+				 material DEF blocal Material	{
+					 diffuseColor 0 1 0
+				 }
+			 }
+			 geometry DEF GeoSphere1 Sphere {
+				 radius 4.000
+			 }
+		 }
+	 ]
+ }
+     
+ Transform {
+	 translation 40 67.5 4
+	 children [
+		 Shape {
+			 appearance Appearance {
+				 material DEF bremoto Material {
+					 diffuseColor 0 1 0
+				 }
+			 }
+			 geometry DEF GeoSphere2 Sphere {
+				 radius 4.000
+			 }
+		 }
+	 ]
+ }
+ 
+ Transform {
+	 translation -70 65 1
+	 children [
+		 Shape {
+			 appearance Appearance {
+				 material USE Shiny_Black
+			 }
+			 geometry DEF Text2 Text {
+				 string "Uso Remoto:"
+				 maxExtent 0.000
+				 fontStyle FontStyle {
+					 family "SANS"
+					 style "BOLD"
+					 justify ["BEGIN""BEGIN"]
+					 size 20.000
+					 spacing 1.000
+				 }
+			 }
+		 }
+	 ]
+ }
+
+
+
+
+DEF dad_Teste Transform {
+ translation -70 40 1
+ children [
+  DEF suporte Shape {
+   appearance Appearance {
+    material USE Shiny_Black 
+   }
+   geometry DEF Text1 Text {
+    string "Suporte:"
+    maxExtent 0.000
+    fontStyle FontStyle {
+     family "SANS"
+     style "BOLD"
+     justify ["BEGIN"
+     "BEGIN"]
+     size 20.000
+     spacing 1.000
+    }
+   }
+  }
+ ]
+}
+DEF dad_suporte0 Transform {
+ translation 5 42.5 4
+ children [
+  Shape {
+   appearance Appearance {
+    material DEF Suporte Material {
+     ambientIntensity 0.200
+     shininess 0.200
+     diffuseColor 0 1 0
+    }
+   }
+   geometry  Sphere {
+    radius 4.000
+   }
+  }
+ ]
+}
+DEF dad_Rastro Transform {
+ translation -70 -10 1
+ children [
+  DEF Rastro Shape {
+   appearance Appearance {
+    material USE Shiny_Black
+   }
+   geometry DEF GeoText1 Text {
+    string "Rastro:"
+    maxExtent 0.000
+    fontStyle FontStyle {
+     family "SERIF"
+     style "BOLD"
+     justify ["BEGIN"
+     "BEGIN"]
+     size 20.000
+     spacing 1.000
+    }
+   }
+  }
+ ]
+}
+DEF dad_persistente Transform {
+ translation -70 15 1
+ children [
+  DEF persistente Shape {
+   appearance Appearance {
+    material USE Shiny_Black
+   }
+   geometry  Text {
+    string "Persistente:"
+    maxExtent 0.000
+    fontStyle FontStyle {
+     family "SANS"
+     style "BOLD"
+     justify ["BEGIN"
+     "BEGIN"]
+     size 20.000
+     spacing 1.000
+    }
+   }
+  }
+ ]
+}
+DEF dad_rastro Transform {
+ translation 5 -7.5 4
+ children [
+  Shape {
+   appearance Appearance {
+       material  DEF rastro Material {
+		   ambientIntensity 0.200
+		   shininess 0.200
+		   diffuseColor 1 0 0
+	   }
+	}
+   geometry DEF GeoSphere3 Sphere {
+    radius 4.000
+   }
+  }
+ ]
+}
+
+Transform {
+ translation -70 -35 1
+ children [
+  Shape {
+   appearance Appearance {
+    material USE Shiny_Black
+   }
+   geometry  Text {
+    string "Visibilidade_rastro:"
+    maxExtent 0.000
+    fontStyle FontStyle {
+     family "SERIF"
+     style "PLAIN"
+     justify ["BEGIN"
+     "BEGIN"]
+     size 20.000
+     spacing 1.000
+    }
+   }
+  }
+ ]
+}
+
+
+ Transform {
+ translation 50 -30.5 4
+ children [
+  Shape {
+   appearance Appearance {
+       material  DEF vrastro Material {
+		   ambientIntensity 0.200
+		   shininess 0.200
+		   diffuseColor 0 1 0
+	   }
+	}
+   geometry  Sphere {
+    radius 4.000
+   }
+  }
+ ]
+}
+DEF dad_center_distance Transform {
+ translation -70 -60 1
+ children [
+  DEF center_distance Shape {
+   appearance Appearance {
+    material USE Shiny_Black
+   }
+   geometry DEF GeoText4 Text {
+    string "Center_distance:"
+    maxExtent 0.000
+    fontStyle FontStyle {
+     family "SERIF"
+     style "PLAIN"
+     justify ["BEGIN"
+     "BEGIN"]
+     size 20.000
+     spacing 1.000
+    }
+   }
+  }
+ ]
+}
+DEF dad_ced Transform {
+ translation 45 -60 1
+ children [
+  DEF ced Shape {
+   appearance Appearance {
+    material DEF Shiny_Blue Material {
+     ambientIntensity 0.200
+     shininess 0.100
+     diffuseColor 0 0 1
+     specularColor 0 0 1
+    }
+   }
+   geometry DEF ceDistance Text {
+    string "0.00"
+    maxExtent 0.000
+    fontStyle FontStyle {
+     family "SERIF"
+     style "PLAIN"
+     justify ["BEGIN"
+     "BEGIN"]
+     size 20.000
+     spacing 1.000
+    }
+   }
+  }
+ ]
+}
+DEF dad_Collision_distace Transform {
+ translation -70 -85 1
+ children [
+  DEF Collision_distace Shape {
+   appearance Appearance {
+    material USE Shiny_Black
+   }
+   geometry DEF GeoText3 Text {
+    string "Collison_distance:"
+    maxExtent 0.000
+    fontStyle FontStyle {
+     family "SERIF"
+     style "PLAIN"
+     justify ["BEGIN"
+     "BEGIN"]
+     size 20.000
+     spacing 1.000
+    }
+   }
+  }
+ ]
+}
+DEF dad_cod Transform {
+ translation 45 -85 1
+ children [
+  DEF cod Shape {
+   appearance Appearance {
+    material USE Shiny_Blue
+   }
+   geometry DEF coDistance Text {
+    string "0.00"
+    maxExtent 0.000
+    fontStyle FontStyle {
+     family "SERIF"
+     style "PLAIN"
+     justify ["BEGIN"
+     "BEGIN"]
+     size 20.000
+     spacing 1.000
+    }
+   }
+  }
+ ]
+}
+DEF dad_persistente0 Transform {
+ translation 5 17.5 4
+ children [
+ Shape {
+   appearance Appearance {
+    material DEF Persistente Material {
+	    ambientIntensity 0.200
+    	shininess 0.200
+    	diffuseColor 0 1 0
+    }
+   }
+   geometry  Sphere {
+    radius 4.000
+   }
+  }
+ ]
+}
+DEF Box1 Shape {
+ appearance Appearance {
+  material DEF Shiny_Yellow Material {
+   ambientIntensity 0.200
+   shininess 0.100
+   diffuseColor 1 1 0
+   specularColor 1 1 0
+  }
+ }
+ geometry DEF GeoBox2 Box {
+  size 150 200 1
+ }
+}
+

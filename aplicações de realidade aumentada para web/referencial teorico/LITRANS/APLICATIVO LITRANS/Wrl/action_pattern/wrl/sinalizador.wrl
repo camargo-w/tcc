@@ -1,0 +1,106 @@
+#VRML V2.0 utf8
+WorldInfo {
+ title "mAdvise"
+ info ["This Web3D Content was created with Flux Studio, a Web3D authoring tool"
+ "www.mediamachines.com"]
+}
+## Vizthumbnail  Thumb_sinalizador_wrl456201197727902.jpg
+DEF Import_number_wrl Group {
+ children [
+  DEF dad_Teste Transform {
+   translation -45 35 1
+   children [
+    DEF suporte Shape {
+     appearance Appearance {
+      material DEF Shiny_Black Material {
+       ambientIntensity 0.200
+       shininess 0.100
+       diffuseColor 0 0 0
+      }
+     }
+     geometry DEF Text1 Text {
+      string "Suporte:"
+      maxExtent 0.000
+      fontStyle FontStyle {
+       family "SANS"
+       style "BOLD"
+       justify ["BEGIN"
+       "BEGIN"]
+       size 24.000
+       spacing 1.000
+      }
+     }
+    }
+   ]
+  }
+  DEF dad_persistente Transform {
+   translation -45 0 1
+   children [
+    DEF persistente Shape {
+     appearance Appearance {
+      material USE Shiny_Black
+     }
+     geometry DEF Text2 Text {
+      string "Persistente:"
+      maxExtent 0.000
+      fontStyle FontStyle {
+       family "SANS"
+       style "BOLD"
+       justify ["BEGIN"
+       "BEGIN"]
+       size 20.000
+       spacing 1.000
+      }
+     }
+    }
+   ]
+  }
+  DEF dad_persistente0 Transform {
+   translation 30 0 4
+   children [
+    DEF persistente0 Shape {
+     appearance Appearance {
+      material DEF Persistente Material {
+       ambientIntensity 0.200
+       shininess 0.200
+       diffuseColor 0 1 0
+      }
+     }
+     geometry DEF GeoSphere2 Sphere {
+      radius 4.000
+     }
+    }
+   ]
+  }
+  DEF Box1 Shape {
+   appearance Appearance {
+    material DEF Shiny_Yellow Material {
+     ambientIntensity 0.200
+     shininess 0.100
+     diffuseColor 1 1 0
+     specularColor 1 1 0
+    }
+   }
+   geometry DEF GeoBox2 Box {
+    size 100 100 1
+   }
+  }
+  DEF dad_suporte0 Transform {
+   translation 30 35 4
+   children [
+    DEF suporte0 Shape {
+     appearance Appearance {
+		 material DEF Suporte Material {
+    		ambientIntensity 0.200
+    		shininess 0.200
+    		diffuseColor 0 1 0
+		}
+     }
+     geometry DEF GeoSphere1 Sphere {
+      radius 4.000
+     }
+    }
+   ]
+  }
+ ]
+}

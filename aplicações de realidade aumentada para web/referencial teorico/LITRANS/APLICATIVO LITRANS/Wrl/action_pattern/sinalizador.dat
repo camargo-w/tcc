@@ -1,0 +1,17 @@
+wrl/action_pattern/wrl/panel3.WRL
+0.0 0.0 0.0		# Translation - x,y,z from center of tracking pattern
+0 1.0 0.0 0.0	# Rotation angle + axis, eg 90.0 1.0 0.0 0.0
+1 1 1
+audio/
+0 position/
+
+wrl/action_pattern/wrl/suporte.wrl           #objeto 0
+0.0 0.0 0.0		# Translation - x,y,z from center of tracking pattern
+0 0.0 0.0 1.0	# Rotation angle + axis, eg 90.0 1.0 0.0 0.0
+1 1 1
+audio/
+0 position/
+
+             
+            
+

@@ -1,0 +1,214 @@
+#VRML V2.0 utf8
+WorldInfo {
+ title "pagina2"
+ info ["This Web3D Content was created with Vivaty Studio, a Web3D authoring tool"
+ "www.mediamachines.com"
+ "This Web3D Content was created with Vivaty Studio, a Web3D authoring tool"]
+}
+## Vizthumbnail  Thumb_pagina2_wrl249741304117524.jpg
+Transform {
+ translation 0 12 0
+ rotation 1 0 0 3.142
+ children [
+  DEF dad_IndexedFaceSet1 Transform {
+   translation 0 6 0
+   rotation 0 0 1 3.142
+   scale .5 12 10
+   children [
+    DEF IndexedFaceSet1 Shape {
+     appearance Appearance {
+      material DEF White Material {
+       ambientIntensity 0.200
+       shininess 0.200
+       diffuseColor 1 1 1
+      }
+     }
+     geometry DEF GeoIndexedFaceSet1 IndexedFaceSet {
+      creaseAngle 0.524
+      coordIndex [
+        0 1 2 -1 
+        0 2 3 -1 
+      ]
+      coord DEF IndexedFaceSet1_Coord Coordinate {
+       point [
+        -.5 .5 -.5
+        -.5 .5 .5
+        .5 .5 .5
+        .5 .5 -.5
+       ]
+      }
+     }
+    }
+   ]
+  }
+  DEF dad_IndexedFaceSet2 Transform {
+   translation 0 6 0
+   rotation 0 0 1 3.142
+   scale .5 12 10
+   children [
+    DEF IndexedFaceSet2 Shape {
+     appearance Appearance {
+      material USE White
+     }
+     geometry DEF GeoIndexedFaceSet2 IndexedFaceSet {
+      creaseAngle 0.524
+      coordIndex [
+        0 1 2 -1 
+        0 2 3 -1 
+      ]
+      coord DEF IndexedFaceSet2_Coord Coordinate {
+       point [
+        -.5 .5 .5
+        -.5 -.5 .5
+        .5 -.5 .5
+        .5 .5 .5
+       ]
+      }
+     }
+    }
+   ]
+  }
+  DEF dad_IndexedFaceSet4 Transform {
+   translation 0 6 0
+   rotation 0 0 1 3.142
+   scale .5 12 10
+   children [
+    DEF IndexedFaceSet4 Shape {
+     appearance Appearance {
+      material USE White
+     }
+     geometry DEF GeoIndexedFaceSet4 IndexedFaceSet {
+      creaseAngle 0.524
+      coordIndex [
+        0 1 2 -1 
+        0 2 3 -1 
+      ]
+      coord DEF IndexedFaceSet4_Coord Coordinate {
+       point [
+        .5 .5 -.5
+        .5 -.5 -.5
+        -.5 -.5 -.5
+        -.5 .5 -.5
+       ]
+      }
+     }
+    }
+   ]
+  }
+  DEF dad_IndexedFaceSet5 Transform {
+   translation 0 6 0
+   rotation 0 0 1 3.142
+   scale .5 12 10
+   children [
+    DEF IndexedFaceSet5 Shape {
+     appearance Appearance {
+      texture ImageTexture {
+       url [
+        "Wrl/template/pagina7.jpg"
+       ]
+      }
+      material USE White
+     }
+     geometry DEF GeoIndexedFaceSet5 IndexedFaceSet {
+      creaseAngle 0.524
+      coordIndex [
+        0 1 2 -1 
+        0 2 3 -1 
+      ]
+      texCoordIndex [
+        0 1 2 -1 
+        0 2 3 -1 
+      ]
+      coord DEF IndexedFaceSet5_Coord Coordinate {
+       point [
+        -.5 .5 -.5
+        -.5 -.5 -.5
+        -.5 -.5 .5
+        -.5 .5 .5
+       ]
+      }
+      texCoord TextureCoordinate {
+       point [
+        0 1
+        0 0
+        1 0
+        1 1
+       ]
+      }
+     }
+    }
+   ]
+  }
+  DEF dad_IndexedFaceSet6 Transform {
+   translation 0 6 0
+   rotation 0 0 1 3.142
+   scale .5 12 10
+   children [
+    DEF IndexedFaceSet6 Shape {
+     appearance Appearance {
+      material USE White
+     }
+     geometry DEF GeoIndexedFaceSet6 IndexedFaceSet {
+      creaseAngle 0.524
+      coordIndex [
+        0 1 2 -1 
+        0 2 3 -1 
+      ]
+      coord DEF IndexedFaceSet6_Coord Coordinate {
+       point [
+        .5 -.5 .5
+        -.5 -.5 .5
+        -.5 -.5 -.5
+        .5 -.5 -.5
+       ]
+      }
+     }
+    }
+   ]
+  }
+  DEF dad_IndexedFaceSet3 Transform {
+   translation 0 6 0
+   rotation 0 0 1 3.142
+   scale .5 12 10
+   children [
+    DEF IndexedFaceSet3 Shape {
+     appearance Appearance {
+      texture ImageTexture {
+       url [
+        "Wrl/template/pagina7.jpg"
+       ]
+      }
+      material USE White
+     }
+     geometry DEF GeoIndexedFaceSet3 IndexedFaceSet {
+      creaseAngle 0.524
+      coordIndex [
+        0 1 2 -1 
+        0 2 3 -1 
+      ]
+      texCoordIndex [
+        0 1 2 -1 
+        0 2 3 -1 
+      ]
+      coord DEF IndexedFaceSet3_Coord Coordinate {
+       point [
+        .5 .5 .5
+        .5 -.5 .5
+        .5 -.5 -.5
+        .5 .5 -.5
+       ]
+      }
+      texCoord TextureCoordinate {
+       point [
+        0 1
+        0 0
+        1 0
+        1 1
+       ]
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

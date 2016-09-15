@@ -1,0 +1,86 @@
+#the number of patterns to be recognized
+14
+
+#pattern 1
+VRML Wrl/action_pattern/esfera.dat
+Data/inspector
+80.0
+0.0 0.0
+
+#pattern 2
+VRML Wrl/action_pattern/esfera.dat
+Data/control
+80.0
+0.0 0.0
+
+#pattern 3
+VRML Wrl/action_pattern/esfera.dat
+Data/copy
+80.0
+0.0 0.0
+
+#pattern 4
+VRML Wrl/action_pattern/esfera.dat
+Data/transport
+80.0
+0.0 0.0
+
+#pattern 5
+VRML Wrl/action_pattern/esfera.dat
+Data/eraser
+80.0
+0.0 0.0
+
+#pattern 6
+VRML Wrl/action_pattern/sinalizador.dat
+Data/status
+80.0
+0.0 0.0
+
+#pattern 7
+VRML Wrl/action_pattern/path.dat
+Data/path
+80.0
+0.0 0.0
+
+#pattern 8
+VRML Wrl/action_pattern/bloqueio.dat
+Data/lock
+80.0
+0.0 0.0
+
+#pattern 9
+VRML Wrl/reference/ref1.dat
+Data/ref1_remota
+80.0
+0.0 0.0
+
+#pattern 10
+VRML Wrl/reference/ref2.dat
+Data/ref2
+80.0
+0.0 0.0
+
+#pattern 11
+VRML Wrl/reference/ref3.dat
+Data/ref3
+80.0
+0.0 0.0
+
+#pattern 12
+VRML Wrl/reference/ref4.dat
+Data/ref4
+80.0
+0.0 0.0
+
+#pattern 13
+VRML Wrl/reference/ref5.dat
+Data/ref5
+80.0
+0.0 0.0
+
+#pattern 14
+VRML Wrl/reference/ref6.dat
+Data/ref6
+80.0
+0.0 0.0

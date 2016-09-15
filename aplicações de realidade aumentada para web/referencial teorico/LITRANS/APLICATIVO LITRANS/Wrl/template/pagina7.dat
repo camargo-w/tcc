@@ -1,0 +1,13 @@
+wrl/template/esfera.wrl
+0.0 0.0 0.0	# Translation - x,y,z from center of tracking pattern
+90.0 1.0 0.0 0.0	# Rotation angle + axis, eg 90.0 1.0 0.0 0.0
+1 1 1 # Scale
+audio/      # Audio file
+0 0
+
+wrl/template/pagina7.wrl
+0.0 0.0 0.0	# Translation - x,y,z from center of tracking pattern
+90.0 1.0 0.0 0.0	# Rotation angle + axis, eg 90.0 1.0 0.0 0.0
+20 20 20  # Scale
+audio/audio7.1.wav      # Audio file
+0 0
